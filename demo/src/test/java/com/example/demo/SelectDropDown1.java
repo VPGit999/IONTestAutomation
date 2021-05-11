@@ -40,6 +40,7 @@ public class SelectDropDown1 {
 		}
 		System.out.println("==============================");*/
 		//Print all values from the dropdown using for each
+		
 		for(WebElement e1: ls){
 			System.out.println(e1.getText());
 		}

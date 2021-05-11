@@ -17,6 +17,7 @@ public class SelectDropDown {
 		ChromeDriver driver=new ChromeDriver();
 		driver.get("https://www.sugarcrm.com/au/request-demo/");
 		driver.manage().window().maximize();
+		//if it is exit in select we should select class and if source contains dev tag then we sould use action class
 		WebElement ddown=driver.findElement(By.name("employees_c"));
 		Select select=new Select(ddown);
 		select.selectByValue("level1");
